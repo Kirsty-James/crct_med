@@ -18,3 +18,5 @@ Depending on the analysis option and the assumptions that the user makes regardi
 Confidence intervals and standard errors for all effects are calculated using a cluster bootstrap procedure, a seed is set in order for these results to be reproducible within the session. Clusters are sampled with replacement, and duplicated clusters are assigned unique cluster identifiers before refitting the model. Percentile confidence intervals are then calculated and presented. 
 When interference = “TRUE”, unmeasured_confounding = “FALSE”, and averages_only = “FALSE”, a sensitivity analysis is conducted over the values specified in rho_values. The sensitivity analysis examines how the NCIE changes as the assumed residual association between the cluster level mediator and outcome is varied. A line is plotted to show the value of rho required for this effect to become 0.
 
+# To use the code
+Use the run_analysis script to make sure all of the files are sourced correctly and then modfify the example code to fit your analysis
